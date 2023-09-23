@@ -20,13 +20,13 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you added to improve the site's functionality!
+* [x] Added additional styling to cards
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
 
-<img src='https://i.imgur.com/0h6ZJsn.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/vm9cP4K.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ShareX 
@@ -37,7 +37,7 @@ GIF created with ShareX
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Utilizing what we learned, and actually applying it into this project was daunting but very rewarding. Working with JSX was nice.
 
 ## License
 
