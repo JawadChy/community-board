@@ -26,7 +26,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='https://i.imgur.com/vm9cP4K.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![Video Walkthrough](./assets/project1gif.gif)
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ShareX 
