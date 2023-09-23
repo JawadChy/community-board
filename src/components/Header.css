@@ -1,0 +1,29 @@
+.header-logo {
+    width: 15vw;
+    height: auto; /* maintain aspect ratio */
+}
+
+h1 {
+    color: #fff;
+    font-size: 80px;
+    text-shadow: black 1px 0 10px;
+    padding-bottom: 18px;
+    margin-left: 50px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 40px; /* Adjusted font size for medium screens */
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 30px; /* Adjusted font size for small screens */
+    }
+}

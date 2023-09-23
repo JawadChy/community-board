@@ -1,0 +1,16 @@
+/* Set background color to teal blue */
+body { 
+  background-color: #8EF1F5
+} 
+
+
+/* For Webkit browsers */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* For Firefox */
+body {
+  overflow: -moz-scrollbars-none;
+  scrollbar-width: none;
+}

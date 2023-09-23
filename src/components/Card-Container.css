@@ -1,0 +1,84 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2em; 
+    background-image: url('https://images.pexels.com/photos/129731/pexels-photo-129731.jpeg?cs=srgb&dl=pexels-fwstudio-129731.jpg&fm=jpg'); /* Set background image */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    border: 1px solid #8B4513; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+.card {
+    width: 27%;
+    background-color: #fff;
+    box-shadow: 0 15px 25px rgba(129, 124, 124, 0.33);
+    border-radius: 14px;
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+    transition: transform 0.3s; /* for hover effect */
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 30px rgba(129, 124, 124, 0.5);
+}
+
+/* Styling for Card Content */
+.card img {
+    width: 100%;
+    height: 250px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    object-fit: cover;
+}
+
+.card h3 {
+    font-size: 2rem;
+    margin: 1em 0;
+}
+
+.card h4, .card p {
+    margin: 0.5em 0;
+}
+
+.card a button {
+    background-color: #cc0606;
+    color: #fff;
+    padding: 1em 2em; 
+    border: none;
+    border-radius: 12px; 
+    cursor: pointer;
+    font-size: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2); 
+    transition: all 0.3s ease-in-out; 
+}
+
+.card a button:hover {
+    background-color: #a90404;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 45%; /* Cards take more width on tablets */
+        font-size: 0.9rem; /* Adjust font size */
+    }
+    .card img {
+        height: 200px; /* Adjust image height */
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        width: 90%; /* Cards take more width on mobile phones */
+        font-size: 0.8rem; /* Adjust font size */
+    }
+    .card img {
+        height: 150px; /* Adjust image height */
+    }
+}
